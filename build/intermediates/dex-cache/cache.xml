@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\classes-408b455b84d7a338167b90a5f10869a274112c18.jar" />
+    </item>
+    <item
+        jar="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\classes-e6410e1f432ed1c5b039b52dc7c918da9320c40f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-6f08fba23dc4f09763f2c438249a93815ae8b3ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\classes-981f71d732b1a66a2ea5952175324e5f13322ce3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Amir\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-d36098e008824ca31d5a0d34593ab1229e922f97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\classes-67c8ff6b7c7780acf097172ae400dd27877f3874.jar" />
+    </item>
+
+</items>
