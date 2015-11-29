@@ -2,11 +2,19 @@ package com.bugs.bugs;
 
 import android.app.ListActivity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
+
+import com.facebook.CallbackManager;
+import com.facebook.FacebookSdk;
+import com.facebook.share.model.ShareContent;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareDialog;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -20,13 +28,23 @@ public class followers extends ListActivity{
     private ArrayList<Integer> iconFollowers;
     private ArrayList<User> followers;
     private CustomListAdapter adapter2;
+    private Button shareButton;
+    private CallbackManager callbackManager;
 
 
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_followers);
         followers = new ArrayList<User>();
+        callbackManager = CallbackManager.Factory.create();
+        FacebookSdk.sdkInitialize(getApplicationContext());
+
         followers.add(new User("1","maggie@gmail.com","","","maggie",0));
 
         userNames = new ArrayList<String>();
@@ -51,7 +69,16 @@ public class followers extends ListActivity{
         getMenuInflater().inflate(R.menu.menu_followers, menu);
         return true;
     }
-
+    public void FBshare(View view) {
+        shareButton = (Button)findViewById(R.id.share_button);
+        ShareContent linkContent = new ShareLinkContent.Builder()
+                .setContentDescription("https://developers.facebook.com/bugs/332619626816423")
+                .setContentTitle("https://developers.facebook.com/bugs/332619626816423")
+                .setContentUrl(Uri.parse("https://developers.facebook.com/bugs/332619626816423"))
+                .build();
+        ShareDialog s = new ShareDialog(this);
+        s.show(linkContent);
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

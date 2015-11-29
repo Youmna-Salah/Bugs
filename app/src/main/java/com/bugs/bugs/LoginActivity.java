@@ -36,8 +36,6 @@ public class LoginActivity extends Activity {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         info = (TextView)findViewById(R.id.info);
         loginButton = (LoginButton)findViewById(R.id.login_button);
-
-        btnFacebookLogin = (Button) findViewById(R.id.btnFacebookLogin);
         btnSignUp= (Button) findViewById(R.id.btnSignUp);
         btnFacebookLogin.setOnClickListener(new Button.OnClickListener() {
             @Override
