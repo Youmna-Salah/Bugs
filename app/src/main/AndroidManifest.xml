@@ -43,6 +43,10 @@
             android:name=".NewsFeed"
             android:label="@string/title_activity_news_feed" >
         </activity>
+        <activity
+            android:name=".FolloweesProfile"
+            android:label="@string/title_activity_followees_profile" >
+        </activity>
     </application>
 
 </manifest>
