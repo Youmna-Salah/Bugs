@@ -52,7 +52,7 @@ public class LoginActivity extends Activity {
                         else if (password.getText().toString().length()<6)
                             Toast.makeText(getApplicationContext(), "your password couldn't be less than 6 characters", Toast.LENGTH_LONG).show();
                         else if(!email.getText().toString().equals("") && !password.getText().toString().equals("")){
-                            startActivity(new Intent(LoginActivity.this, LoginActivity.class));
+                            startActivity(new Intent(LoginActivity.this, Profile.class));
                         }
                     }
                 });
