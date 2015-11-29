@@ -47,6 +47,10 @@
             android:name=".FolloweesProfile"
             android:label="@string/title_activity_followees_profile" >
         </activity>
+        <activity
+            android:name=".FollowersProfile"
+            android:label="@string/title_activity_followers_profile" >
+        </activity>
     </application>
 
 </manifest>

@@ -18,5 +18,6 @@
     <string name="title_activity_create_post">CreatePost</string>
     <string name="title_activity_news_feed">NewsFeed</string>
     <string name="title_activity_followees_profile">FolloweesProfile</string>
+    <string name="title_activity_followers_profile">FollowersProfile</string>
 
 </resources>
