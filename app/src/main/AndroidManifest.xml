@@ -51,6 +51,10 @@
             android:name=".FollowersProfile"
             android:label="@string/title_activity_followers_profile" >
         </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>
