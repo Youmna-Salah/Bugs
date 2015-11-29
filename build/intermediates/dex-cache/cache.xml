@@ -2,6 +2,20 @@
 <items version="2" >
 
     <item
+        jar="/Users/youmna/Bugs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/youmna/Bugs/app/build/intermediates/pre-dexed/debug/classes-62dc2de761f682a9e9788ba093b50e17b51dcaa8.jar" />
+    </item>
+    <item
+        jar="/Users/youmna/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/youmna/Bugs/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-584e7f95a6bc1d7c922d8abcdefc9d2d2a8c139d.jar" />
+    </item>
+    <item
         jar="/Users/youmna/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -16,13 +30,6 @@
         <dex dex="/Users/youmna/Bugs/app/build/intermediates/pre-dexed/debug/classes-54e784170a25bea19c9edb467221db84d6489d16.jar" />
     </item>
     <item
-        jar="/Users/youmna/Bugs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/youmna/Bugs/app/build/intermediates/pre-dexed/debug/classes-62dc2de761f682a9e9788ba093b50e17b51dcaa8.jar" />
-    </item>
-    <item
         jar="/Users/youmna/Bugs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -35,13 +42,6 @@
         revision="21.1.2"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="/Users/youmna/Bugs/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-917fe628667083bab5c290308fd693d79306a6f3.jar" />
-    </item>
-    <item
-        jar="/Users/youmna/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/youmna/Bugs/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-584e7f95a6bc1d7c922d8abcdefc9d2d2a8c139d.jar" />
     </item>
 
 </items>
