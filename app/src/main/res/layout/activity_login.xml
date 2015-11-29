@@ -70,28 +70,25 @@
         android:layout_height="wrap_content"
         android:text="@string/or"
         android:id="@+id/or"
-        android:layout_marginTop="20dp"
         android:layout_below="@+id/btnLogin"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:layout_width="200dp"
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/facebookLogin"
-        android:id="@+id/btnFacebookLogin"
-        android:onClick="onClick"
-        android:layout_marginTop="20dp"
+        android:onClick="FBlogin"
         android:layout_below="@+id/or"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_alignRight="@+id/btnLogin"
+        android:layout_alignEnd="@+id/btnLogin" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/or"
         android:id="@+id/or2"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/btnFacebookLogin"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/btnSignUp"
+        android:layout_alignLeft="@+id/or"
+        android:layout_alignStart="@+id/or" />
 
     <Button
         android:layout_width="200dp"
@@ -99,9 +96,10 @@
         android:text="@string/signUp"
         android:id="@+id/btnSignUp"
         android:onClick="onClick"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/or2"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/login_button"
+        android:layout_alignEnd="@+id/login_button"
+        android:layout_marginBottom="34dp" />
 
 
 </RelativeLayout>
