@@ -9,22 +9,98 @@
     "  android:background="@color/background_material_dark">
 
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:id="@+id/imageView"
+        />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:onClick="FBlogin" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3am Ayoub"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="107dp"
+        android:layout_marginEnd="107dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ayoub_seeboF7alo@gmail.com"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location:"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/com_facebook_blue"
-        android:textColor="@color/com_facebook_share_button_text_color"
-        android:text="share"
-        android:id="@+id/share_button"
-        android:onClick="FBshare"
-        android:layout_marginTop="57dp"
-        android:layout_below="@+id/login_button"
-        android:layout_centerHorizontal="true" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Birth Date:"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gender:"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cairo, Egypt"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1/1/1901"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Male"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+
+
+
 </RelativeLayout>
+ 
+ 
