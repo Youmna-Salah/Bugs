@@ -21,7 +21,6 @@ import com.facebook.login.widget.LoginButton;
 
 public class LoginActivity extends Activity {
     Button btnLogin;
-    Button btnFacebookLogin;
     private LoginButton loginButton;
     private TextView info;
     private CallbackManager callbackManager;
@@ -37,12 +36,6 @@ public class LoginActivity extends Activity {
         info = (TextView)findViewById(R.id.info);
         loginButton = (LoginButton)findViewById(R.id.login_button);
         btnSignUp= (Button) findViewById(R.id.btnSignUp);
-        btnFacebookLogin.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                    startActivity(new Intent(LoginActivity.this, LoginActivity.class));
-                }
-            });
         btnSignUp.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
