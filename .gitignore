@@ -1,6 +1,13 @@
 .gradle/
+<<<<<<< HEAD
 ./build
 .idea/
 .DS_Store
 app/.idea/
 app/build
+=======
+.idea/
+app/build
+./bin
+
+>>>>>>> fdf7bfc556017a07ef4842f5fd3353ef2f8080e4
