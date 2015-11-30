@@ -19,7 +19,7 @@ public class CreatePost extends ActionBarActivity {
         submit.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CreatePost.this, Profile.class));
+                startActivity(new Intent(CreatePost.this, profile.class));
             }
         });
     }

@@ -4,6 +4,7 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -12,8 +13,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-
-public class Profile extends ListActivity {
+public class profile extends ListActivity {
 
     private ImageView mImageView;
     private Button newPost;
@@ -25,6 +25,10 @@ public class Profile extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+    //bind imageview with your xml's id
+        mImageView = (ImageView)findViewById(R.id.profilePicture);
+    //set resource for imageview
+        mImageView.setImageResource(R.drawable.profilepic);
 
 
 //bind imageview with your xml's id
@@ -36,7 +40,7 @@ public class Profile extends ListActivity {
         newPost.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Profile.this, CreatePost.class));
+                startActivity(new Intent(profile.this, CreatePost.class));
             }
         });
 //        ListView lv = (ListView) findViewById(R.id.list);
@@ -62,7 +66,7 @@ public class Profile extends ListActivity {
         postImages.add("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/1/24/1390579173532/a52a44b2-7a7d-44ca-804f-f3648f3bd595-620x461.jpeg");
         postTexts.add("I cannot believe apple macintosh has completed 30 years, I was born before it by about 50 years, and now everybody is just using the computer");
         postWriters.add("Maggie Moheb");
-        CustomPostListAdapter adapter = new CustomPostListAdapter(Profile.this, this.postTitles, this.postImages, this.postTexts, this.postWriters);
+        CustomPostListAdapter adapter = new CustomPostListAdapter(profile.this, this.postTitles, this.postImages, this.postTexts, this.postWriters);
         setListAdapter(adapter);
 
     }
@@ -74,7 +78,7 @@ public class Profile extends ListActivity {
         getMenuInflater().inflate(R.menu.menu_profile, menu);
         return true;
     }
- @Override
+
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -90,6 +94,6 @@ public class Profile extends ListActivity {
     }
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
-        startActivity(new Intent(Profile.this, CreatePost.class));
+        startActivity(new Intent(profile.this, CreatePost.class));
     }
  }
