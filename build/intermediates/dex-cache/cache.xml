@@ -47,8 +47,18 @@
         jar="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
+<<<<<<< HEAD
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
         <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-fa631a64cb5347b5ca9929660226cdd046d3d62e.jar" />
+=======
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+ 
+        <dex dex="C:\Users\Amir\Documents\GitHub\Bugs\app\build\intermediates\pre-dexed\debug\classes-67c8ff6b7c7780acf097172ae400dd27877f3874.jar" />
+      
+ =
+        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/classes-8c57e84133dadde9e2b8e4a8524344f79911018d.jar" />
+  e01d16bf8a054118ddd1eb2023a42f3d46c07386
+>>>>>>> 22a6274ce3d2f48d5185b07b583c16a2f57d4344
     </item>
 
 </items>

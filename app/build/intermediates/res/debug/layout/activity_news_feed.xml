@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.bugs.bugs.NewsFeed">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_blue"
+        android:textColor="@color/com_facebook_share_button_text_color"
+        android:text="share"
+        android:id="@+id/share_button"
+        android:onClick="FBshare"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/login_button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+<!-- From: file:/Users/maggiemoheb/Desktop/Bugs/app/src/main/res/layout/activity_news_feed.xml -->
