@@ -2,6 +2,27 @@
 <items version="2" >
 
     <item
+        jar="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/classes-f30e38d75aec58670f92ea3ab12f98e140510bde.jar" />
+    </item>
+    <item
+        jar="/Users/maggiemoheb/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-bdb53a2d936d3f8155da4b2f2a2504bb35cbd383.jar" />
+    </item>
+    <item
+        jar="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/classes-8c57e84133dadde9e2b8e4a8524344f79911018d.jar" />
+    </item>
+    <item
         jar="/Users/maggiemoheb/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -23,32 +44,11 @@
         <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/classes-d87de2004774ddbed18213ea1cf71dbd492225e7.jar" />
     </item>
     <item
-        jar="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/classes-f30e38d75aec58670f92ea3ab12f98e140510bde.jar" />
-    </item>
-    <item
         jar="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
         <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-fa631a64cb5347b5ca9929660226cdd046d3d62e.jar" />
-    </item>
-    <item
-        jar="/Users/maggiemoheb/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-bdb53a2d936d3f8155da4b2f2a2504bb35cbd383.jar" />
-    </item>
-    <item
-        jar="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/Users/maggiemoheb/Desktop/Bugs/app/build/intermediates/pre-dexed/debug/classes-8c57e84133dadde9e2b8e4a8524344f79911018d.jar" />
     </item>
 
 </items>
